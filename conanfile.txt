@@ -1,0 +1,14 @@
+[requires]
+libjpeg/9c@bincrafters/stable
+libpng/1.6.34@bincrafters/stable
+libtiff/4.0.9@bincrafters/stable
+zlib/1.2.11@conan/stable
+tesseract/4.0.0@bincrafters/stable
+opencv/4.1.1@conan/stable
+boost/1.71.0@conan/stable
+
+[generators]
+cmake
+
+[options]
+opencv:eigen=True
